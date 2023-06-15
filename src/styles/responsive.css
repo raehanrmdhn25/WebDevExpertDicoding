@@ -1,0 +1,102 @@
+@media only screen and (max-width: 340px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header {
+    background: url('../public/images/hero-small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo,
+  .header-title {
+    font-size: 1em;
+  }
+
+  .nav-item a,
+  .header-subtitle,
+  .button {
+    font-size: 1em;
+  }
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    text-align: center;
+  }
+
+  .header {
+    background: url('../public/images/hero-small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .menu-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .menu span {
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0;
+    height: 175px;
+    flex-wrap: wrap;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-list-block {
+    display: flex;
+  }
+
+  
+}
+
+@media only screen and (min-width: 600px) {
+  .main-content-title {
+    margin-bottom: 1em;
+  }
+
+  .header {
+    background: url('../public/images/hero-large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #restaurant,
+  #favorite-restaurant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {
+  #restaurant,
+  #favorite-restaurant {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+  }
+}

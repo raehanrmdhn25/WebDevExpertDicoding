@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  object-fit: cover;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  width: 100%;
+  backdrop-filter: brightness(50%);
+
+}
+
+.header-text {
+  color: white;
+  align-self: center;
+  width: 100%;
+  margin: auto 0;
+  padding-bottom: 3em;
+}
+
+.header-title {
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.header-subtitle {
+  margin: 16px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 1.36em;
+}
